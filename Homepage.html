@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>NerdHub – Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="FinalCSS.css">
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<img src="Images/NerdHub_Logo.png" alt="NerdHub – combination of all things nerd." class="Main_logo">
+	</header>
+	<nav>
+		<div class="w3-bar w3-black">
+			<a href="Homepage.html" class="w3-bar-item w3-button w3-purple">Homepage</a>
+			<a href="Table_Top_RPGs.html" class="w3-bar-item w3-button">Table-Top RPGs</a>
+			<a href="Collectible_Cards.html" class="w3-bar-item w3-button">Collectible Cards</a>
+			<a href="Books_Videos_and_More!.html" class="w3-bar-item w3-button">Books, Videos, and More!</a>
+			<a href="Video_Games.html" class="w3-bar-item w3-button">Video Games</a>
+			<a href="PC_Building.html" class="w3-bar-item w3-button">PC Building</a>
+		</div>
+	</nav>
+	<main class="content-page">
+
+		<div class="page-hero home-hero">
+			<h1>Welcome to the NerdHub!</h1>
+			<p class="hero-subtitle">Your one-stop portal for everything nerdy — RPGs, cards, games, tech, and more!</p>
+		</div>
+
+		<section class="content-section">
+			<h2>What is NerdHub?</h2>
+			<p>Greetings and salutations! Here at the Hub, we strive to educate people who may be on the fence about all things nerd. Maybe it's dipping a toe into the world of D&amp;D (Dungeons &amp; Dragons), building that first computer to play the newest game with your friends, or maybe you just want to collect them all in the Pokémon TCG (Trading Card Game).</p>
+			<p>We hope that what you find here leads you or a loved one to that wonderful world of high-fantasy or sci-fi you never knew existed. You can find a plethora of information by following the links in the navigation menu above. While we do our best to provide as much knowledge in one place, the world of nerddom is vast — so we have provided useful links throughout to friendly websites covering your desired topic. With all that said, welcome to the world of NerdHub!</p>
+			<div class="placeholder-img-wrap">
+				<img src="Images/Adventure.png" alt="Adventure Time – Your Adventure Begins" class="content-img">
+			</div>
+		</section>
+
+		<section class="content-section">
+			<h2>Explore Our Topics</h2>
+			<p>Not sure where to start? Click any topic below to jump straight into it!</p>
+			<div class="card-grid" id="topic-grid">
+				<a href="Table_Top_RPGs.html" class="info-tile ttrpg-tile topic-tile" style="text-decoration:none;">
+					<div class="placeholder-box">🎲</div>
+					<h3>Table-Top RPGs</h3>
+					<p>Grab some dice and step into a world of dragons, dungeons, and endless adventure!</p>
+				</a>
+				<a href="Collectible_Cards.html" class="info-tile cards-tile topic-tile" style="text-decoration:none;">
+					<div class="placeholder-box">🃏</div>
+					<h3>Collectible Cards</h3>
+					<p>Collect, trade, and battle with Pokémon, Magic: The Gathering, and more.</p>
+				</a>
+				<a href="Books_Videos_and_More!.html" class="info-tile books-tile topic-tile" style="text-decoration:none;">
+					<div class="placeholder-box">📚</div>
+					<h3>Books, Videos &amp; More</h3>
+					<p>Dive into anime, manga, comics, and the books that started it all.</p>
+				</a>
+				<a href="Video_Games.html" class="info-tile games-tile topic-tile" style="text-decoration:none;">
+					<div class="placeholder-box">🎮</div>
+					<h3>Video Games</h3>
+					<p>From cozy farming sims to epic RPGs — find the perfect game for you.</p>
+				</a>
+				<a href="PC_Building.html" class="info-tile pc-tile topic-tile" style="text-decoration:none;">
+					<div class="placeholder-box">🖥️</div>
+					<h3>PC Building</h3>
+					<p>Build your dream machine from scratch with our beginner-friendly guide.</p>
+				</a>
+			</div>
+		</section>
+
+		<div class="two-col-section">
+			<section class="info-card home-accent">
+				<h2>Latest Articles</h2>
+				<a href="https://ttrpgfans.com/traveller-5e-rpg/" target="_blank" class="card article-card">
+					<div class="card-image">
+						<img src="Images/ART1.jpg" alt="Space soldier art for Traveller 5E">
+						<div class="card-text">Traveller 5E is charting new space on BackerKit</div>
+					</div>
+				</a>
+				<a href="https://www.tomshardware.com/pc-components/gpus/lowest-gpu-prices-tracking" target="_blank" class="card article-card">
+					<div class="card-image">
+						<img src="Images/GPU.webp" alt="Multiple GPUs with colorful background">
+						<div class="card-text">GPU Price Tracking 2026</div>
+					</div>
+				</a>
+				<a href="https://www.crunchyroll.com/news/announcements/2026/4/2/anime-awards-2026-nominees-full-list" target="_blank" class="card article-card">
+					<div class="card-image">
+						<img src="Images/Anime.jpg" alt="Crunchyroll Anime Awards 2026 banner">
+						<div class="card-text">Crunchyroll 2026 Anime Awards</div>
+					</div>
+				</a>
+			</section>
+
+			<section class="info-card">
+				<h2>Upcoming Events</h2>
+				<p>Count down to the next big nerd event!</p>
+				<div class="events-list">
+					<div class="event-item">
+						<div class="event-info">
+							<strong>Summer Game Fest 2026</strong>
+							<span class="event-dates">June 5–8, 2026</span>
+						</div>
+						<div class="event-countdown" id="countdown-sgf">calculating…</div>
+					</div>
+					<div class="event-item">
+						<div class="event-info">
+							<strong>FlippinCardShow</strong>
+							<span class="event-dates">August 8–9, 2026</span>
+						</div>
+						<div class="event-countdown" id="countdown-fcs">calculating…</div>
+					</div>
+					<div class="event-item">
+						<div class="event-info">
+							<strong>PAX West 2026</strong>
+							<span class="event-dates">September 4–7, 2026</span>
+						</div>
+						<div class="event-countdown" id="countdown-pax">calculating…</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<section class="content-section">
+			<h2>Frequently Asked Questions</h2>
+			<div class="accordion" id="home-faq">
+				<div class="acc-item">
+					<button class="acc-btn" aria-expanded="false" aria-controls="hfaq1">I'm completely new to nerd hobbies. Where do I start? <span class="acc-arrow">▼</span></button>
+					<div class="acc-body" id="hfaq1" hidden>
+						<p>The best place to start is wherever your curiosity leads! Browse our topic tiles above and click the one that sounds most exciting. Each page has a beginner section with everything you need to know to get started without spending a lot of money.</p>
+					</div>
+				</div>
+				<div class="acc-item">
+					<button class="acc-btn" aria-expanded="false" aria-controls="hfaq2">Are these hobbies expensive? <span class="acc-arrow">▼</span></button>
+					<div class="acc-body" id="hfaq2" hidden>
+						<p>They can range from free to expensive, but most hobbies have a great low-cost entry point. D&amp;D has free basic rules, many video games are free-to-play, and PC building can start under $500. Check each topic page for cost breakdowns!</p>
+					</div>
+				</div>
+				<div class="acc-item">
+					<button class="acc-btn" aria-expanded="false" aria-controls="hfaq3">Is NerdHub good for kids and families? <span class="acc-arrow">▼</span></button>
+					<div class="acc-body" id="hfaq3" hidden>
+						<p>Absolutely! All our content is family-friendly and written to be accessible for all ages. Many nerd hobbies are wonderful for developing creativity, teamwork, and problem-solving skills in kids. We include age recommendations throughout each page.</p>
+					</div>
+				</div>
+				<div class="acc-item">
+					<button class="acc-btn" aria-expanded="false" aria-controls="hfaq4">How do I find local groups or events? <span class="acc-arrow">▼</span></button>
+					<div class="acc-body" id="hfaq4" hidden>
+						<p>Your local game store (LGS) is the best starting point! Search for "game store near me" and ask about their event schedule. Sites like Meetup.com also list hobby groups for D&amp;D, card games, and gaming in most cities.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer class="w3-container w3-center footer">
+		<img src="Images/anotherCastle.jpg" alt="Always Sunny Luigi – the princess is in another castle">
+		<p>Web page brought to you by:</p>
+		<p>The Princess is in another castle production</p>
+	</footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
